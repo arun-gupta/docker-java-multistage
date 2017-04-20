@@ -1,0 +1,7 @@
+= Multi-stage Docker Build for Java Applications
+
+This repository shows how to create a multi-stage Docker build for Java application.
+
+. Single-stage: `docker build -f Dockerfile.single -t helloworld:singlestage .`
+. Multi-stage: `docker build -f Dockerfile -t helloworld:multistage .`
+
